@@ -1,0 +1,8 @@
+lib/*.js
+es/*.js
+*.DS_Store
+tsconfig.json
+*.snap
+*.mdx
+*.html
+*.svg

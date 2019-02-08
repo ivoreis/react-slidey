@@ -1,0 +1,13 @@
+node_modules
+*.swp
+*.swo
+*.un~
+.DS_Store
+.eslintcache
+yarn-error.log
+.rpt2_cache
+.webpack
+.idea
+dist
+*.code-workspace
+.vscode

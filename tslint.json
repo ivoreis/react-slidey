@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "tslint-react",
+    "tslint:latest",
+    "tslint-config-airbnb",
+    "tslint-config-prettier",
+    "tslint-react-hooks"
+  ],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "react-hooks-nesting": "error",
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
+    "jsx-no-multiline-js": false,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "public-instance-field",
+          "public-constructor",
+          "private-static-field",
+          "private-instance-field",
+          "private-constructor"
+        ]
+      }
+    ],
+    "no-console": [true, "log", "error"],
+    "import-name": false,
+    "interface-name": false,
+    "max-line-length": false,
+    "no-boolean-literal-compare": false,
+    "no-unused-expression": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "object-literal-sort-keys": false,
+    "object-shorthand-properties-first": false,
+    "ordered-imports": false,
+    "ter-arrow-parens": false,
+    "ter-computed-property-spacing": false
+  }
+}

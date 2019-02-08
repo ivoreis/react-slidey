@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "es6",
+    "target": "es6",
+    "outDir": "./lib",
+    "declaration": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "jsx": "react",
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+  ]
+}
