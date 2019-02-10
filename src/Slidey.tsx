@@ -70,9 +70,8 @@ const Slidey = (props: SlideyProps) => {
     useDotIndex,
     showArrows,
     autoplay,
+    children: slides,
   } = props;
-
-  const slides = props.children;
 
   const autoSlideshow = () => {
     setCurrentSlide(prevState => (prevState + 1) % slides.length);
@@ -128,7 +127,7 @@ const Slidey = (props: SlideyProps) => {
       enableKeyboard && document.removeEventListener('keydown', handleKeyboard);
       intervalId && clearInterval(intervalId);
     };
-  }, []);
+  }, [slides]);
 
   let slideShowIndex: React.ReactNode;
 
